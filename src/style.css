@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato";
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+#titlebar {
+  background-color: rgb(66, 66, 66);
+  -webkit-app-region: drag;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+#buttons div {
+  padding: 5px 15px 5px 15px;
+  -webkit-app-region: no-drag;
+}
+
+#close {
+  transition: background-color 0.1s;
+}
+
+#close:hover {
+  background-color: rgb(174, 0, 0);
+}
+
+#minimize {
+  transition: background-color 0.1s;
+}
+
+#minimize:hover {
+  background-color: rgb(108, 108, 108);
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(98, 98, 98);
+}
+
+#btn {
+  width: 100%;
+  height: 100%;
+}
+
+#start {
+  position: absolute;
+  width: fit-content;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: grey;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+#title {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+}
+
+#list {
+  margin: 10px;
+  background-color: rgb(49, 49, 49);
+  color:white;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#manage-btn{
+    width: fit-content;
+    position: relative;
+    background-color: rgb(49, 49, 49);
+    padding: 10px;
+    border-radius: 5px;
+    left: 50%;
+    transform: translate(-50%);
+}

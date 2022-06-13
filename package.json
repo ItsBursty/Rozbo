@@ -1,0 +1,18 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "Un logiciel de suivie de mon entrainement",
+  "main": "./src/electron.js",
+  "scripts": {
+    "run": "tsc & electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.3.3",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.8"
+  }
+}

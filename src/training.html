@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Training</title>
+    <style>
+      #main{
+        padding-top: 3%;
+        width: 100%;
+      }
+
+      #main h1{
+        text-align: center;
+        font-size: 4rem;
+      }
+
+      #main p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 3rem;
+      }
+
+      #finish{
+        position: absolute;
+        font-size: 2rem;
+        bottom: 20px;
+        text-align: center;
+        width: 100%;
+        background-color: rgb(130, 130, 130);
+        padding: 15px 0 15px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="titlebar">
+      <div id="buttons">
+        <div id="close">X</div>
+      </div>
+    </div>
+    <div id="main">
+      <h1 id="name">exoname</h1>
+      <p id="count">countdown or rep</p>
+      <div id="finish">Terminé</div>
+    </div>
+
+  </body>
+  <script src="../scripts/training.js"></script>
+  <script src="../scripts/titlebar.js"></script>
+</html>

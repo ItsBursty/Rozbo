@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Training</title>
+  </head>
+  <body>
+    <div id="titlebar">
+      <div id="buttons">
+        <div id="close">X</div>
+        <div id="minimize">_</div>
+      </div>
+    </div>
+    <div id="main">
+      <div id="btn">
+        <div id="course">
+          <div id="title">Votre programme</div>
+          <div>
+            <div id="list">
+            </div>
+          </div>
+          <div id="manage-btn">
+            <input type="text" name="name" id="name" />
+            <select name="type" id="type">
+              <option value="none" disabled>Choisir un type d'exercice</option>
+              <option value="rep">Par répétitions</option>
+              <option value="time">Par temps (en seconde)</option>
+            </select>
+            <input type="number" step="1" id="rep-range" />
+            <input type="number" step="1" id="time-range" />
+            <button id="add">Ajouter</button>
+          </div>
+        </div>
+        <div id="start">Lancer le programme</div>
+      </div>
+    </div>
+  </body>
+  <script src="../scripts/titlebar.js"></script>
+  <script src="../scripts/core.js"></script>
+</html>
