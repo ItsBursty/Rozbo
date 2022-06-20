@@ -80,6 +80,12 @@
   border-radius: 5px;
 }
 
+#list{
+  height: 200px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
 #manage-btn{
     width: fit-content;
     position: relative;
