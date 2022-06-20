@@ -27,4 +27,8 @@ Here are the planned functionnalities of the app</br>
 - [ ] Health data (BMI)
 </br>And more...
 
+### Future App Design
+![Capture d’écran 2022-06-20 191859](https://user-images.githubusercontent.com/76739818/174651980-3d71d4e4-c690-40f5-a7c9-38ae162890b3.png)
+
+
 </br></br>I want this project to be the most complete as possible!
