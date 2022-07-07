@@ -3,7 +3,7 @@
 
 
 ### **What is this project for?**
-The goal of this project is too create an desktop app for help with training. This app will contains a lot of functionnality and your help is welcome! With this app, create training course will be easy and it will be possible to see your stats. Actually the project is extremely young and give the possibilities to create a course and start it. The planned functionnality are more below this page.
+The goal of this open source project is too create an desktop app for help with training. This app will contains a lot of functionnality and your help is welcome! With this app, create training course will be easy and it will be possible to see your stats. Actually the project is extremely young and give the possibilities to create a course and start it. The planned functionnality are more below this page.
 
 ### **What is the language used**
 The PC version of this app is made with Javascript using NodeJS and the Electron framework. I don't know actually what languages will be used for the mobile version.
